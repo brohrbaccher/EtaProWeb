@@ -1,9 +1,11 @@
 const data = require('../Supporting/data')
 
 module.exports = {
-    'login' : browser => {
+    'Open Report Test': browser => {
         main = browser.page.EPReporter()
         main.login()
+            .selectServer()
+            .openReport()
         browser.end()
     }
 
