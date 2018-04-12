@@ -5,9 +5,9 @@
 
   <testsuite name="EPLogTests"
     errors="0" failures="1" hostname="" id="" package="EPLogTests" skipped="0"
-    tests="1" time="43.33" timestamp="Wed, 11 Apr 2018 16:47:59 GMT">
+    tests="1" time="47.84" timestamp="Thu, 12 Apr 2018 21:16:31 GMT">
   
-    <testcase name="Log In and Test EPLog" classname="EPLogTests" time="43.33" assertions="4">
+    <testcase name="Log In and Test EPLog" classname="EPLogTests" time="47.84" assertions="4">
 
     
 

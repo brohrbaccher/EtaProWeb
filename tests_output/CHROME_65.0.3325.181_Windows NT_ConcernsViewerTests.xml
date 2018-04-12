@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
-            tests="0">
+            failures="1"
+            tests="1">
 
   <testsuite name="ConcernsViewerTests"
-    errors="0" failures="0" hostname="" id="" package="ConcernsViewerTests" skipped="0"
-    tests="0" time="0.000" timestamp="Wed, 11 Apr 2018 16:47:59 GMT">
+    errors="0" failures="1" hostname="" id="" package="ConcernsViewerTests" skipped="0"
+    tests="1" time="23.80" timestamp="Thu, 12 Apr 2018 21:16:07 GMT">
+  
+    <testcase name="Navigate EtaProWeb" classname="ConcernsViewerTests" time="23.80" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;(//span[@class=&#34;dxtv-elbNoLn&#34;])[30]&gt; to be present for 15000 milliseconds.">    at Object.Navigate EtaProWeb (C:\Users\brohrbacher\Desktop\Your Documents\DevMountain Class\Class\Final Project\Group Project\EtaProWeb\Tests\ConcernsViewerTests.js:19:14)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
   
 
   

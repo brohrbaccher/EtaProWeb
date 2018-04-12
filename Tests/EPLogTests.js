@@ -23,7 +23,7 @@ module.exports = {
             .click('@epLogTab')
             browser.pause(10000)
         //Click Event Log
-        .frame('contentUrlScreen')
+        
         epLog.waitForElementPresent('@eventButton', 10000)
         .click('@eventButton')
         browser.pause(8000)
